@@ -22,28 +22,6 @@ designed to:
 6. Extract process-centric chronological event sequences.
 7. Identify anomalous sequences and generate a Critical Component Graph (CCG).
 
-
-## Repository status
-
-The current code snapshot provides the following components:
-
-| Component | Main implementation | Status |
-| --- | --- | --- |
-| Graph serialization and preprocessing | `project/basic_funcs/graph_process.py` | Available |
-| Causal feature extraction and dependency propagation | `project/basic_funcs/casuality.py` | Available |
-| POI-centered causal-analysis pipeline | `project/casuality_analysis.py` | Available |
-| Process-centric sequence extraction | `project/basic_funcs/sequenceExtraction.py` | Available |
-| BERT sequence embedding helpers | `project/basic_funcs/embedding.py` | Available |
-| DEPIMPACT comparison code | `project/depimpact.py` | Experimental |
-| ATLAS comparison and LSTM code | `project/atlas.py`, `project/atlas_methods.py` | Experimental |
-| OC-SVM training and inference described in the paper | — | Not included |
-| Fully automated POIsdiG-to-CCG workflow | — | Partial |
-
-The default command-line entry point runs the causal-analysis portion of the
-pipeline. Reproducing the complete paper workflow requires the missing anomaly
-model stage, the original preprocessed datasets, model assets, and experiment
-parameters.
-
 ## Repository structure
 
 ```text
