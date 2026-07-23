@@ -1,0 +1,17 @@
+{
+  "ground_truth": {
+    "case1": [
+      ["source-node", "target-node"]
+    ]
+  },
+  "poi_events": {
+    "case1": ["source-node", "target-node", 0]
+  },
+  "windows": {
+    "case1": 10
+  },
+  "metadata": {
+    "description": "Replace the example values with your experiment metadata.",
+    "dot_file_names": []
+  }
+}
