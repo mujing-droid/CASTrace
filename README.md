@@ -22,29 +22,6 @@ designed to:
 6. Extract process-centric chronological event sequences.
 7. Identify anomalous sequences and generate a Critical Component Graph (CCG).
 
-The paper architecture contains an offline model-learning phase and a
-POI-driven attack-investigation phase:
-
-```mermaid
-flowchart LR
-    subgraph Training["Phase I: Model learning"]
-        A["Benign audit logs"] --> B["Provenance graph reduction"]
-        B --> C["Process-centric sequence extraction"]
-        C --> D["Lexicalization and BERT embedding"]
-        D --> E["Anomaly model training"]
-    end
-
-    subgraph Investigation["Phase II: Attack investigation"]
-        F["Audit graph and POI"] --> G["Backward analysis and graph reduction"]
-        G --> H["Feature extraction and influence propagation"]
-        H --> I["POIsdiG construction"]
-        I --> J["Sequence extraction and embedding"]
-        J --> K["Anomalous sequence identification"]
-        K --> L["Forward analysis and CCG generation"]
-    end
-
-    E --> K
-```
 
 ## Repository status
 
