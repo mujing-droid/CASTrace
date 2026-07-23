@@ -8,13 +8,6 @@ POI-centered causal influence analysis with process-centric sequence learning
 to reduce dependency explosion, false negatives, and false positives during
 Advanced Persistent Threat (APT) investigation.
 
-This repository accompanies the paper:
-
-> Wenrui Cheng, Zhengqiu Weng, Zijun Wang, Yuheng Zhang, Tiantian Zhu,
-> Mingqi Lv, Yitian Lin, Haiting Chen, and Zhiliang Xia.  
-> *CASTrace: Integrating Causal Knowledge Analysis and Sequential Learning for
-> APT Attack Investigation*. Preprint, 2026.
-
 ## Overview
 
 Given a point-of-interest (POI) event and a provenance graph, CASTrace is
